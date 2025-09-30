@@ -1,0 +1,18 @@
+/* Browser Cache Fix Instructions */
+
+The issue you're experiencing is browser caching. Here are several ways to fix it:
+
+1. **Hard Refresh in Browser:**
+   - Press Ctrl+F5 (Windows) or Cmd+Shift+R (Mac)
+   - Or press F12 → Right-click refresh button → "Empty Cache and Hard Reload"
+
+2. **Clear Browser Cache:**
+   - Go to browser settings → Clear browsing data → Check "Cached images and files"
+
+3. **Disable Cache During Development:**
+   - Press F12 → Network tab → Check "Disable cache" (while DevTools is open)
+
+4. **Incognito/Private Mode:**
+   - Open the URL in incognito mode to bypass cache
+
+The templates have been updated with cache-busting parameters (?v=2025) which should help.
